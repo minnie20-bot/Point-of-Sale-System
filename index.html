@@ -12,44 +12,123 @@
     <div class="pos-container">
         <!-- ITEMS SECTION -->
         <div class="section items-section">
-            <h2>📦 Products</h2>
-            <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search items...">
+            <h2>Products</h2>
+            <input type="text" class="search-box" id="searchBox" placeholder="Search items...">
             <div class="items-grid" id="itemsGrid">
-                <!-- Items will be populated by JavaScript -->
+                <div class="item-card" data-id="1" data-name="Rice 5kg" data-price="250" data-image="https://i.pinimg.com/736x/7e/ef/72/7eef7284aacd81471515ce34d2d22d3f.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/7e/ef/72/7eef7284aacd81471515ce34d2d22d3f.jpg" alt="Rice 5kg"></div>
+                    <div class="item-name">Rice 5kg</div>
+                    <div class="item-price">₱250.00</div>
+                </div>
+                <div class="item-card" data-id="2" data-name="Chicken 1klo" data-price="180" data-image="https://i.pinimg.com/736x/8f/98/34/8f98347eecdaa8f1df5866d723207d48.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/8f/98/34/8f98347eecdaa8f1df5866d723207d48.jpg" alt="Chicken 1klo"></div>
+                    <div class="item-name">Chicken 1klo</div>
+                    <div class="item-price">₱180.00</div>
+                </div>
+                <div class="item-card" data-id="3" data-name="Eggs 12pcs" data-price="85" data-image="https://i.pinimg.com/736x/06/7a/2c/067a2c0aa638eda14ce4e86b9a9318a9.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/06/7a/2c/067a2c0aa638eda14ce4e86b9a9318a9.jpg" alt="Eggs 12pcs"></div>
+                    <div class="item-name">Eggs 12pcs</div>
+                    <div class="item-price">₱85.00</div>
+                </div>
+                <div class="item-card" data-id="4" data-name="Milk 1L" data-price="95" data-image="https://i.pinimg.com/736x/7b/88/20/7b88206ab973adf9210ca7e87ec1b762.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/7b/88/20/7b88206ab973adf9210ca7e87ec1b762.jpg" alt="Milk 1L"></div>
+                    <div class="item-name">Milk 1L</div>
+                    <div class="item-price">₱95.00</div>
+                </div>
+                <div class="item-card" data-id="5" data-name="Bread" data-price="45" data-image="https://i.pinimg.com/1200x/76/8c/2a/768c2a400d78b4f35cedf1b77d6d1796.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/1200x/76/8c/2a/768c2a400d78b4f35cedf1b77d6d1796.jpg" alt="Bread"></div>
+                    <div class="item-name">Bread</div>
+                    <div class="item-price">₱45.00</div>
+                </div>
+                <div class="item-card" data-id="6" data-name="Cooking Oil" data-price="120" data-image="https://i.pinimg.com/736x/c5/fd/4d/c5fd4d5111663d46889e6070f31b11f6.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/c5/fd/4d/c5fd4d5111663d46889e6070f31b11f6.jpg" alt="Cooking Oil"></div>
+                    <div class="item-name">Cooking Oil</div>
+                    <div class="item-price">₱120.00</div>
+                </div>
+                <div class="item-card" data-id="7" data-name="Sugar 1L" data-price="75" data-image="https://i.pinimg.com/736x/29/72/e0/2972e0504eeb356cda00ac6e7be70cd2.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/29/72/e0/2972e0504eeb356cda00ac6e7be70cd2.jpg" alt="Sugar 1L"></div>
+                    <div class="item-name">Sugar 1L</div>
+                    <div class="item-price">₱75.00</div>
+                </div>
+                <div class="item-card" data-id="8" data-name="Coffee" data-price="150" data-image="https://i.pinimg.com/1200x/fd/33/6f/fd336fc591f79f064ad9f5194b8086fb.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/1200x/fd/33/6f/fd336fc591f79f064ad9f5194b8086fb.jpg" alt="Coffee"></div>
+                    <div class="item-name">Coffee</div>
+                    <div class="item-price">₱150.00</div>
+                </div>
+                <div class="item-card" data-id="9" data-name="Toothpaste" data-price="60" data-image="https://i.pinimg.com/736x/33/a6/ee/33a6eea8677485a55a5ce1052cd86dae.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/33/a6/ee/33a6eea8677485a55a5ce1052cd86dae.jpg" alt="Toothpaste"></div>
+                    <div class="item-name">Toothpaste</div>
+                    <div class="item-price">₱60.00</div>
+                </div>
+                <div class="item-card" data-id="10" data-name="Soap" data-price="35" data-image="https://i.pinimg.com/736x/11/ec/9c/11ec9c900d23a5b0e401b2a53b9dba88.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/11/ec/9c/11ec9c900d23a5b0e401b2a53b9dba88.jpg" alt="Soap"></div>
+                    <div class="item-name">Soap</div>
+                    <div class="item-price">₱35.00</div>
+                </div>
+                <div class="item-card" data-id="11" data-name="Shampoo" data-price="120" data-image="https://i.pinimg.com/736x/03/80/d6/0380d6e3817562d68181f784a288ce13.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/03/80/d6/0380d6e3817562d68181f784a288ce13.jpg" alt="Shampoo"></div>
+                    <div class="item-name">Shampoo</div>
+                    <div class="item-price">₱120.00</div>
+                </div>
+                <div class="item-card" data-id="12" data-name="Fabcon" data-price="180" data-image="https://i.pinimg.com/736x/0c/88/32/0c8832f62fc19bd4680726e6e41d8ddb.jpg">
+                    <div class="item-img"><img src="https://i.pinimg.com/736x/0c/88/32/0c8832f62fc19bd4680726e6e41d8ddb.jpg" alt="Fabcon"></div>
+                    <div class="item-name">Fabcon</div>
+                    <div class="item-price">₱180.00</div>
+                </div>
             </div>
         </div>
 
         <!-- CART SECTION -->
         <div class="section cart-section">
-            <h2>🛒 Cart (<span id="cartCount">0</span>)</h2>
+            <h2>Cart (<span id="cartCount">0</span>)</h2>
             <div id="cartItems"></div>
         </div>
 
         <!-- CHECKOUT SECTION -->
         <div class="section checkout-section">
-            <h2>💰 Checkout</h2>
+            <h2>Checkout</h2>
             <div class="total-display">
                 <div>Total Items: <span id="totalItems">0</span></div>
                 <div class="total-amount">₱<span id="grandTotal">0.00</span></div>
             </div>
-            <button class="checkout-btn" id="checkoutBtn">✅ Checkout & Print</button>
-            <button class="clear-btn" id="clearBtn">🗑️ Clear Cart</button>
+            <button class="checkout-btn" id="checkoutBtn">Checkout & Print</button>
+            <button class="clear-btn" id="clearBtn">Clear Cart</button>
         </div>
     </div>
 
     <!-- RECEIPT MODAL -->
     <div class="receipt" id="receipt">
         <div class="receipt-header">
-            <h3>STORE POS</h3>
-            <div id="receiptDateTime"></div>
-            <div>Transaction #<span id="transId"></span></div>
+            <div class="receipt-store-name">STORE POS</div>
+            <div class="receipt-separator">═════════════════════════</div>
+            <div id="receiptDateTime" class="receipt-datetime"></div>
+            <div class="receipt-trans">Transaction #<span id="transId"></span></div>
+            <div class="receipt-separator">═════════════════════════</div>
         </div>
-        <div id="receiptItems"></div>
+        
+        <div class="receipt-items-header">
+            <span class="receipt-col-name">Item</span>
+            <span class="receipt-col-qty">Qty</span>
+            <span class="receipt-col-amount">Amount</span>
+        </div>
+        <div class="receipt-separator-light">───────────────────────────</div>
+        
+        <div id="receiptItems" class="receipt-items-list"></div>
+        
+        <div class="receipt-separator-light">───────────────────────────</div>
         <div class="receipt-total">
-            TOTAL: ₱<span id="receiptTotal">0.00</span>
+            <div class="receipt-total-label">TOTAL:</div>
+            <div class="receipt-total-amount">₱<span id="receiptTotal">0.00</span></div>
         </div>
-        <div style="text-align: center; margin-top: 20px; font-size: 10px;">
-            Thank you for your purchase!
+        
+        <div class="receipt-footer">
+            <div class="receipt-separator">═════════════════════════</div>
+            <div style="text-align: center; margin-top: 10px;">
+                Thank you for your purchase!
+            </div>
+            <div style="text-align: center; font-size: 9px; margin-top: 5px;">
+                Visit us again!
+            </div>
         </div>
     </div>
     
