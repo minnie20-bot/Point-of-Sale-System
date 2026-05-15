@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point Of Sale</title>
+
+
+
+</head>
+<body>
+    <div class="pos-container">
+        <!-- ITEMS SECTION -->
+        <div class="section items-section">
+            <h2>📦 Products</h2>
+            <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search items...">
+            <div class="items-grid" id="itemsGrid">
+                <!-- Items will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- CART SECTION -->
+        <div class="section cart-section">
+            <h2>🛒 Cart (<span id="cartCount">0</span>)</h2>
+            <div id="cartItems"></div>
+        </div>
+
+        <!-- CHECKOUT SECTION -->
+        <div class="section checkout-section">
+            <h2>💰 Checkout</h2>
+            <div class="total-display">
+                <div>Total Items: <span id="totalItems">0</span></div>
+                <div class="total-amount">₱<span id="grandTotal">0.00</span></div>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">✅ Checkout & Print</button>
+            <button class="clear-btn" id="clearBtn">🗑️ Clear Cart</button>
+        </div>
+    </div>
+
+    <!-- RECEIPT MODAL -->
+    <div class="receipt" id="receipt">
+        <div class="receipt-header">
+            <h3>STORE POS</h3>
+            <div id="receiptDateTime"></div>
+            <div>Transaction #<span id="transId"></span></div>
+        </div>
+        <div id="receiptItems"></div>
+        <div class="receipt-total">
+            TOTAL: ₱<span id="receiptTotal">0.00</span>
+        </div>
+        <div style="text-align: center; margin-top: 20px; font-size: 10px;">
+            Thank you for your purchase!
+        </div>
+    </div>
+
+</body>
+</html>
